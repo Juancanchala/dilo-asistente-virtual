@@ -1,3 +1,22 @@
+# Archivos de entorno
 .env
+*.env
+
+# Archivos de credenciales sensibles
+asistente-dlogia-openai.json
+*.json
+
+# Cachés de Python
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Directorios del sistema y editores
+.vscode/
+.DS_Store
+
+# Archivos de contenedores (opcional si no deseas subir despliegue GCP)
+.devcontainer/
+Dockerfile*
+cloudbuild.yaml
+service.yaml
+gcr-service-policy.yaml

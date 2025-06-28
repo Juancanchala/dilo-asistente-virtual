@@ -1,0 +1,20 @@
+FROM python:3.10-slim
+
+# Evita buffer en consola
+ENV PYTHONUNBUFFERED True
+
+# Directorio de trabajo
+WORKDIR /app
+
+# Copiar dependencias e instalarlas
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copiar código fuente
+COPY ./src /app
+
+# Puerto de la app
+EXPOSE 4000
+
+# Comando para lanzar Streamlit
+CMD ["streamlit", "run", "streamlit_page.py", "--server.port=4000", "--server.address=0.0.0.0"]

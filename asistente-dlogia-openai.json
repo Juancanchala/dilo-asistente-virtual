@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "project-asistente-openai-juanc",
+  "private_key_id": "7a891b6cf33e97354046dedfd39ed4069abc8420",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZMQ9D2rF+DkOp\na+PXW2W/cKuKYPVrnDyyxBQJDMe1MGERDL7rAHu6rttSsnYDHtTesoOQ52/t086/\nyNfXCLWIN27WENkScRg1XHiPB+rsDmPHkB2NU752Uct1TRZsjWbbknsQLoNF+aun\njQUm0Bc7LaX8572TSkVvHTk7L7g2d+ZHJ/KogtLXbiD7M4VKfBzmoeLQCkiFWBcH\nkNWoxksDSP+t+yuOmBZjdMCYWtTrm8K7A/iyx2AuYjIWE5e/xgC/20BzJiUswgaN\nRj4i1fmhGYM5QBMFgPm3Db8o7LeGy/ZLDAk61EEbP9rkMWPKulmjN1k3DPFGKepx\n0ziaQBXPAgMBAAECggEADI21YCqnz61rY8OEq9Hwk5wjjiAEj2+8YmjK76r5cBOX\nyLB/6H1iqWup6aG/CHcjvqt6x0lZQtnXPWaScy9hrrnlgiH/Kf23dH4fycSfY32B\nbut5ic2pWJVpuSH3hda2d0KEMm89zzGbJlgUUCX+8cC1s2SBpJ3KXZ3GzRD5CMzR\n/+AvyYLqw5DftIE3s4mKiHYW343yK7V5sBem18UtZ1/ZlDWfZIN/gkhhxGpkJ6ft\nbqxLcyefEWm8q8uefBPuiw1/ke+/nFozitWY6DEGhMGhLxdQDLeBlD0annnMoYdu\ne80QJzQhTxq8ijDocpE6XRUCOP7gBBhNxHlGZm3TIQKBgQD+l69mjXsQZ6r9Ek3p\nmdZ7XoXUwaWn0FeInMPyimsXwJ2ovkUSeqOlRicX2U5CHsiQDB/VLtaaXi/Tum2e\n4zPXtGm7fCYwuSd7giTjbw1XLuoNnEp0laUaKNI9+Tfnk1qbZFvrtdmi4OztfHbA\nbwb7eCL2ss74TWuvSL3/NbKyfQKBgQDaZHFFb3XDntLeV6s0GogGf6/4DHIHDJy2\nDKLJvzMcyTUkYZK2Q5uArFBb619BSw/ytc2O31+6HomLIPe6KohAXInxIkxaW7FB\n/C9txk5DcNLgV/4Onu0E4MVy4yzl5JIQV7clnHpywcE+tgaxLiwkKYAFqKl+lT2z\nIh59zjwvOwKBgAGxmKUiA9OUHPsaCBKpx1eCxXko4KVBKZPrFxKiARxjV6kruuHo\nlvYehVwPQgoGkmcC7aNJcHwObFsIPnp0IIAq3xk0NjzUvoJ/1yb8MiaGVWBJzeUA\nqdyGsP9gjRKpVEz8WfAzgYMn4+ugjFmzY2SA5BqoDeBxA2pjHYB5JvsxAoGBAMhU\nvMb54Gfqh/onJ0frUn3LoUqDeBHZUuN4Ide4yRUNyO6vhpok2D8nUauP9Ff7mAyH\nEqGNa81Z98elHTkrjMKlYG/Oi4WTeL1TrNogv2gD1ZyvesBErpz75oNluqjDi+zr\n2Xfp2zTrYO26odbjyN//JY2LUrdoBSoOETRL+09DAoGAKOfmZeZhKG3T42UHJ3aL\nAQ3i+Vj4A9h89d+fF/hlRZSwQpoFkIk05i2820JNy1CJcyqOrB5QOlhhCieyHexx\nlWu8y8DqwKv9O6M1UsEbxJWkIddyshatupQZBqYYnwIuZGJrKO27a9G7HStQJWJN\nlwNFDRuROJYEM9AA9g3uk5M=\n-----END PRIVATE KEY-----\n",
+  "client_email": "qwerty@project-asistente-openai-juanc.iam.gserviceaccount.com",
+  "client_id": "112899944614243239187",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/qwerty%40project-asistente-openai-juanc.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

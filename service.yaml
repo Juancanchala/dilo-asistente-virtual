@@ -1,0 +1,11 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: servicio-asistente-openai-juan-canchala
+spec:
+  template:
+    spec:
+      containers:
+        - image: us-central1-docker.pkg.dev/project-asistente-openai-juanc/repo-chat-streamlit-datapath/image-v1-streamlit-datapath
+          ports:
+            - containerPort: 4000

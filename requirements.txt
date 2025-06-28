@@ -1,0 +1,8 @@
+streamlit
+ipykernel
+openai
+python-dotenv
+heyoo
+pygsheets
+pandas
+

@@ -1,10 +1,10 @@
 streamlit
 ipykernel
 openai
-python-dotenv
+python-dotenv==1.0.1
 heyoo
 pygsheets
 pandas
-streamlit-chat     #componente visual
-streamlit-lottie   #componente visual
-streamlit-extras   #componente visual
+streamlit-chat     
+streamlit-lottie   
+streamlit-extras   

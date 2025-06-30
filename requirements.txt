@@ -1,8 +1,7 @@
 cat > requirements.txt << EOF
 streamlit
-ipykernel
-openai
 python-dotenv
+openai
 heyoo
 pygsheets
 pandas

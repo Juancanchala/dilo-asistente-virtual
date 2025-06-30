@@ -1,11 +1,9 @@
-cat > requirements.txt << EOF
-streamlit
-python-dotenv
-openai
-heyoo
-pygsheets
-pandas
-streamlit-chat
-streamlit-lottie
-streamlit-extras
-EOF
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+openai>=1.0.0
+pandas>=1.5.0
+pygsheets>=2.0.0
+heyoo>=0.0.7
+streamlit-chat>=0.1.0
+streamlit-lottie>=0.0.5
+streamlit-extras>=0.3.0

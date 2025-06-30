@@ -21,8 +21,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 load_dotenv()
 
 # ✅ Verificar y obtener las variables de entorno
-api_key = os.getenv("OPENAI_API_KEY")
-assistant_id = os.getenv("ASSISTANT_ID")
+api_key = st.secrets["OPENAI_API_KEY"]
+assistant_id = st.secrets["ASSISTANT_ID"]
 
 if not api_key:
     st.error("❌ No se encontró la clave OPENAI_API_KEY")

@@ -8,3 +8,4 @@ pandas
 streamlit-chat     
 streamlit-lottie   
 streamlit-extras   
+# rebuild

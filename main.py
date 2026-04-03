@@ -5,6 +5,7 @@ from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import Optional
 import os
+from time import sleep
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -52,6 +53,12 @@ def chat(req: ChatRequest):
     # Crear nuevo thread o reutilizar el existente
     if req.thread_id:
         thread_id = req.thread_id
+        # Cancelar runs activos antes de enviar un nuevo mensaje
+        runs = client.beta.threads.runs.list(thread_id=thread_id)
+        for run in runs.data:
+            if run.status in ["in_progress", "queued", "requires_action"]:
+                client.beta.threads.runs.cancel(thread_id=thread_id, run_id=run.id)
+                sleep(1)
     else:
         thread = client.beta.threads.create()
         thread_id = thread.id

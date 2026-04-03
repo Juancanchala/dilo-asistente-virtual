@@ -215,8 +215,10 @@ def registrar_google_sheets(nombre, correo, telefono, programa):
         print(df)
 
         # Autenticación y subida con pygsheets
-        service_account_path = "asistente-dlogia-openai.json"
-        gc = pygsheets.authorize(service_file=service_account_path)
+        if os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"):
+            gc = pygsheets.authorize(service_account_env_var="GOOGLE_SERVICE_ACCOUNT_JSON")
+        else:
+            gc = pygsheets.authorize(service_file="asistente-dlogia-openai.json")
         sh = gc.open_by_key(sheet_id)
         wks = sh.worksheet_by_title(sheet_name)
         wks.set_dataframe(df, (1, 1))
@@ -368,8 +370,10 @@ def registrar_google_sheets(nombre, correo, programa):
     print(df)
 
     try:
-        service_account_path = "asistente-dlogia-openai.json"
-        gc = pygsheets.authorize(service_file=service_account_path)
+        if os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"):
+            gc = pygsheets.authorize(service_account_env_var="GOOGLE_SERVICE_ACCOUNT_JSON")
+        else:
+            gc = pygsheets.authorize(service_file="asistente-dlogia-openai.json")
         sh = gc.open_by_key(sheet_id)
         wks = sh.worksheet_by_title(sheet_name)
         wks.set_dataframe(df, (1, 1))

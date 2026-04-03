@@ -1,10 +1,8 @@
-streamlit==1.46.1
+fastapi==0.115.6
+uvicorn==0.34.0
 python-dotenv==1.0.1
 openai==1.57.0
 pandas==2.3.0
 pygsheets==2.0.6
 heyoo==0.0.7
-streamlit-chat==0.1.1
-streamlit-lottie==0.0.5
-streamlit-extras==0.4.7
-# Test sync
+python-multipart==0.0.20
